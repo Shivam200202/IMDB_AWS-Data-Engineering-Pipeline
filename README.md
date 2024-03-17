@@ -1,11 +1,19 @@
 # AWS Data Engineering Pipeline: Extracting, Transforming, and Analyzing IMDB Data
+The "AWS Data Engineering Pipeline: Extracting, Transforming, and Analyzing IMDB Data" project is aimed at demonstrating the implementation of a comprehensive data engineering pipeline using various AWS services. 
 
-# Introduction
-The "AWS Data Engineering Pipeline: Extracting, Transforming, and Analyzing IMDB Data" project is aimed at demonstrating the implementation of a comprehensive data engineering pipeline using various AWS services. The primary objective of this project is to extract movie data from the Internet Movie Database (IMDB), transform it into a structured format, and analyze it to derive valuable insights.
+# Project Goals
+The primary goals of the "AWS Data Engineering Pipeline: Extracting, Transforming, and Analyzing IMDB Data" project are as follows:
 
-This project showcases the end-to-end process of collecting data from a web source, storing it in Amazon S3 buckets, transforming it using AWS Glue, and querying it with Amazon Athena. Additionally, it highlights the challenges encountered during the implementation and how they were addressed.
+1.**Demonstrate AWS Data Engineering Pipeline:** Showcase the implementation of a comprehensive data engineering pipeline using AWS services such as AWS Glue, Athena, and S3. The project aims to provide a practical example for building scalable and efficient data pipelines in the AWS cloud environment.
 
-The project serves as a practical example for data engineers and enthusiasts looking to leverage AWS services for building scalable and efficient data pipelines. By following along with this project, users can gain valuable insights into best practices for working with AWS Cloud infrastructure and data engineering tools.
+2.**Extract and Transform IMDB Data:** Extract movie data from the Internet Movie Database (IMDB) website and transform it into a structured format suitable for analysis. This involves cleaning, formatting, and enriching the raw data to prepare it for querying and visualization.
+
+3.**Enable Data Analysis and Insights:** Enable data analysis and derive actionable insights from the IMDB dataset using AWS Athena for querying and Power BI for visualization. The project aims to showcase the capabilities of AWS services for performing data analysis and visualization tasks.
+
+4.**Address Challenges in Data Processing:** Address challenges encountered in data processing, such as schema inference issues, mixed data formats, data cleaning, and performance optimization.
+
+# Data Pipeline
+![Data Pipeline](https://github.com/Shivam200202/IMDB_AWS-Data-Engineering-Pipeline/assets/159875270/30fabc8d-6403-4c2c-a809-b49701f72ca9)
 
 # Prerequisites
 Before using this project, ensure you have the following prerequisites installed and set up:
