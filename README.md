@@ -96,8 +96,8 @@ The AWS Glue Crawler had difficulty inferring the schema for certain data column
 
 Data extracted from the IMDb website required cleaning and transformation to ensure consistency and accuracy. Handling missing values, inconsistencies in data formats, and data quality issues required additional preprocessing steps using Python scripts and AWS Glue jobs.
 
-# Power BI Showcase
-In this section, we present visualizations and insights derived from the IMDb dataset using Power BI. The Power BI report includes the following key visualizations and interactive features:
+# Power BI Dashboard
+A comprehensive Power BI dashboard showcasing insights derived from the IMDb dataset. The dashboard includes various visualizations and interactive features to explore and analyze movie data effectively:
 
 1.**Total Gross Earning:** A card visual displaying the total gross earnings of movies.
 
