@@ -77,16 +77,12 @@ During the development of this project, the following issues were encountered:
 
 1.**AWS Glue Catalog Schema Inference:**
 
-The AWS Glue Crawler had difficulty inferring the schema for certain data columns, resulting in blank or incorrectly mapped columns in the Glue Data Catalog. This issue was addressed by manually defining the schema during table creation in the Glue Data Catalog.
+AWS Glue Catalog Schema Inference (Due to CSV Format):
+The AWS Glue Crawler had difficulty inferring the schema for certain data columns, resulting in blank or incorrectly mapped columns in the Glue Data Catalog. This issue was addressed by manually defining the schema during table creation in the Glue Data Catalog. Additionally, it was resolved by changing the data format from CSV to Parquet, which improved schema inference and compatibility with AWS Glue and Athena.
 ![issue1](https://github.com/Shivam200202/IMDB_AWS-Data-Engineering-Pipeline/assets/159875270/47b2ad4d-1f2e-40ba-8e2d-87264562f0a8)
 
 ![issue2](https://github.com/Shivam200202/IMDB_AWS-Data-Engineering-Pipeline/assets/159875270/9fa62270-f3a9-477e-8d31-90d0195103a2)
 
-
-
-2.**Mixed Data Formats in S3 Bucket:**
-
-Storing both CSV and Parquet files in the same S3 bucket caused compatibility issues with AWS Glue Catalog and Athena. As a solution, only Parquet files were retained in the S3 bucket, ensuring uniform data format for seamless processing.
 
 3.**Data Cleaning and Transformation Challenges:**
 
