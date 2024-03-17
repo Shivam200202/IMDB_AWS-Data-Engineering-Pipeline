@@ -78,7 +78,8 @@ During the development of this project, the following issues were encountered:
 1.**AWS Glue Catalog Schema Inference:**
 
 The AWS Glue Crawler had difficulty inferring the schema for certain data columns, resulting in blank or incorrectly mapped columns in the Glue Data Catalog. This issue was addressed by manually defining the schema during table creation in the Glue Data Catalog.
-https://github.com/Shivam200202/IMDB_AWS-Data-Engineering-Pipeline/assets/159875270/4d985ce2-34f6-479d-aed4-9438c133c9ad
+![Issue](https://github.com/Shivam200202/IMDB_AWS-Data-Engineering-Pipeline/assets/159875270/4d985ce2-34f6-479d-aed4-9438c133c9ad)
+
 
 2.**Mixed Data Formats in S3 Bucket:**
 
