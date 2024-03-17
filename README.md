@@ -95,3 +95,34 @@ The AWS Glue Crawler had difficulty inferring the schema for certain data column
 3.**Data Cleaning and Transformation Challenges:**
 
 Data extracted from the IMDb website required cleaning and transformation to ensure consistency and accuracy. Handling missing values, inconsistencies in data formats, and data quality issues required additional preprocessing steps using Python scripts and AWS Glue jobs.
+
+# Power BI Showcase
+In this section, we present visualizations and insights derived from the IMDb dataset using Power BI. The Power BI report includes the following key visualizations and interactive features:
+
+1.**Total Gross Earning:** A card visual displaying the total gross earnings of movies.
+
+2.**Count of Drama Movies:** A card visual showing the count of drama movies.
+
+3.**Count of Action Movies:** A card visual illustrating the count of action movies.
+
+4.**Count of Comedy Movies:** A card visual indicating the count of comedy movies.
+
+5.**Count of Adventure Movies:** A card visual representing the count of adventure movies.
+
+6.**Count of Thriller Movies:** A card visual depicting the count of thriller movies.
+
+7.**Movie with Highest Vote:** A group of card visuals showcasing details of the movie with the highest vote. The visuals include:
+
+a.**Votes:** Total number of votes received by the movie.
+b.**Year of Release:** The year in which the movie was released.
+c.**Runtime:** The duration of the movie in minutes.
+d.**IMDb Rating:** The IMDb rating of the movie.
+e.**Metascore Rating:** The Metascore rating of the movie.
+f.**Gross Earning:** The gross earning of the movie.
+
+8.**Slicers for Filtering:** Slicers are provided to filter the data based on the PG rating and release year. Users can interactively select specific PG ratings or years to view relevant data.
+
+9.**Horizontal Bar Chart:** A horizontal bar chart displaying the gross earnings of movies over five years.
+
+10.**Vertical Bar Chart:** A vertical bar chart showing the count of movies released over five years. Users can analyze trends in movie production over time.
+![IMBD_Dashboard](https://github.com/Shivam200202/IMDB_AWS-Data-Engineering-Pipeline/assets/159875270/4f01fb9b-7925-465f-a55d-836818d7fa04)
