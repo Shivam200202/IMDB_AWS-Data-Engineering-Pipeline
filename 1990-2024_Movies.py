@@ -197,5 +197,7 @@ df = pd.DataFrame({"Name": name,"Year": year, "PG": pg, "Run Time": rnt, "Genre"
                    "Romance": rom,  "Sci-Fi": scifi, "Thiriller": thiri, "IMDB Rating": imdbr, "Meta Score Type": Meta_Score_Type,
                    "Meta Score": Score, "Summary": summr, "Director Name": dirn, "Stars": stars, "Count of Votes": votes,
                    "Gross Earning": gross})
-S3 = "Your S3 Bucket Location"
+
+S3 = "AWS S3 Folder URI"
+
 df.to_csv(rf'{}\IMDB_Movies_1990-2022.csv', index = False)
