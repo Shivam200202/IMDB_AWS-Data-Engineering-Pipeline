@@ -25,3 +25,10 @@ Before using this project, ensure you have the following prerequisites installed
 **Basic Understanding of AWS Services:** Familiarize yourself with AWS services such as S3, Glue, Athena, and IAM, as well as basic concepts of data engineering and data analysis.
 
 **Basic Understanding of Python:** Knowledge of Python programming language is essential for interacting with AWS services programmatically, performing data transformations, and scripting tasks related to data processing.
+
+
+# Installation
+**Python Libraries in AWS Cloud9**
+
+Install required Python libraries:![Crawler](https://github.com/Shivam200202/IMDB_AWS-Data-Engineering-Pipeline/assets/159875270/d89a8cfa-4215-4492-a6e5-b41b6a337773)
+
