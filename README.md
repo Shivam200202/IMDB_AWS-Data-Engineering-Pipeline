@@ -125,4 +125,5 @@ f.**Gross Earning:** The gross earning of the movie.
 9.**Horizontal Bar Chart:** A horizontal bar chart displaying the gross earnings of movies over five years.
 
 10.**Vertical Bar Chart:** A vertical bar chart showing the count of movies released over five years. Users can analyze trends in movie production over time.
-![IMBD_Dashboard](https://github.com/Shivam200202/IMDB_AWS-Data-Engineering-Pipeline/assets/159875270/4f01fb9b-7925-465f-a55d-836818d7fa04)
+![IMBD_Dashboard]![IMBD_Dashboard](https://github.com/Shivam200202/IMDB_AWS-Data-Engineering-Pipeline/assets/159875270/4c30f6fd-5785-4662-9968-a2a0a5f684d1)
+
